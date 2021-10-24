@@ -1,3 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania:regular");
+
+@font-face {
+	font-family: "Apura";
+	src: url("../fonts/ApuraRegular.woff2") format("woff2"), url("../fonts/ApuraRegular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
 /* ОБНУЛЕНИЕ СТИЛЕЙ */
 *,
 *::before,
@@ -31,13 +42,13 @@ img {
 /* --------------- */
 * {
 	font-size: 20px;
-	font-weight: 700;
 }
 h2 {
 	color: red;
 }
 
 .header {
+	line-height: 250%;
 }
 .header-info {
 }
@@ -51,6 +62,7 @@ h2 {
 .main {
 }
 .history {
+	font-family: Apura;
 }
 .history-title {
 }
@@ -62,6 +74,7 @@ h2 {
 }
 
 .preparation-title {
+	letter-spacing: 25px;
 	color: blue;
 }
 h2 .preparation-title {
@@ -71,6 +84,7 @@ h2 .preparation-title {
 	color: brown;
 }
 .preparation-text {
+	text-indent: 100px;
 }
 
 .decoration {
@@ -78,20 +92,31 @@ h2 .preparation-title {
 .decoration-title {
 }
 .decoration-text {
+	font-size: 30px;
+	text-decoration: line-through;
+	color: grey;
 }
 .decoration-img {
 }
 .culture {
 }
 .culture-title {
+	font-size: 60px;
+	font-weight: 900;
+	word-spacing: 50px;
+	text-transform: capitalize;
 }
 .culture-text {
+	font-style: italic;
+	white-space: nowrap;
 }
 .famous {
 }
 .famous-title {
+	text-align: center;
 }
 .famous-link {
+	text-align: right;
 }
 
 .text {
@@ -105,4 +130,5 @@ h2 .preparation-title {
 }
 .footer {
 	color: purple;
+	font-family: Metal Mania;
 }
